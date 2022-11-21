@@ -8,7 +8,7 @@ This is an archive of my twitter account, available at `tweet.nelson.codes`. Any
 
 If I have a new archive: `yarn run import`
 
-Run `yarn start` to test it locally. To deploy, run `yarn build` and then push to Github.
+Run `yarn start` to test it locally. To deploy, push to Github.
 ### Fetch additional tweets from the API
 
 1. Get the `TWITTER_BEARER_TOKEN` (note to future self: it's in 1pass) and put it in your env: `export TWITTER_BEARER_TOKEN=`
