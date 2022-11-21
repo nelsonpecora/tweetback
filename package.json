@@ -9,6 +9,11 @@
     "build": "npx @11ty/eleventy --quiet",
     "start": "npx @11ty/eleventy --quiet --serve"
   },
+  "git": {
+    "scripts": {
+      "pre-push": "yarn build"
+    }
+  },
   "keywords": [],
   "contributors": [
     "Zach Leatherman <zachleatherman@gmail.com> (https://zachleat.com/)"
@@ -28,7 +33,6 @@
     "parse-domain": "^2.3.2",
     "sentiment": "^5.0.2",
     "sqlite3": "^5.1.2",
-    "surge": "^0.23.1",
     "swearjar": "^0.2.0",
     "twitter-lite": "^1.1.0"
   },
